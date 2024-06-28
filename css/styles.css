@@ -1,0 +1,54 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #000000;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.fixed-bottom {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.d-flex .btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.d-flex .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.d-flex .btn-outline-light:focus {
+    box-shadow: none;
+}
